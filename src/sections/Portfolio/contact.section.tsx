@@ -214,10 +214,10 @@ export const ContactSection: React.FC = () => {
       <Grid item className={classes.imageContainer}>
 
         <div>
-          <Link href="https://example.com" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.youtube.com/@annishkumar/shorts" target="_blank" rel="noopener noreferrer">
           <img src={youtube} alt="youtube Link" width={34} height={34} style={{paddingRight:"20px"}}/>
           </Link>
-          <Link href="https://example.com" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.instagram.com/_annish_kumar_/" target="_blank" rel="noopener noreferrer">
           <img src={instagram} alt="instagram Link" width={34} height={34} style={{paddingRight:"20px"}}/>
           </Link>
           <Link href="https://www.upwork.com/freelancers/~01b88ffe5dcde734ce" target="_blank" rel="noopener noreferrer">
