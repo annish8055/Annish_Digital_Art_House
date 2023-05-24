@@ -21,6 +21,7 @@ interface BackgroundPopupprops {
 }
 
 const BackgroundPopup: React.FC<BackgroundPopupprops> = ({val, open, onClose }) => {
+  console.log(val);
   const images = [
     {
         id:"1",

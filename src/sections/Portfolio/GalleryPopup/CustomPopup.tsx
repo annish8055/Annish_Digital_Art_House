@@ -33,6 +33,7 @@ interface CustomPopupprops {
 }
 
 const CustomPopup: React.FC<CustomPopupprops> = ({val, open, onClose }) => {
+  console.log(val);
   const images = [
     {
         id:"1",

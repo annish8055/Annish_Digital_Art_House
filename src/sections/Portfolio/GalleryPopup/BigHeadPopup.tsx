@@ -21,6 +21,7 @@ interface BigHeadPopupprops {
 }
 
 const BigHeadPopup: React.FC<BigHeadPopupprops> = ({val, open, onClose }) => {
+  console.log(val);
   const images = [
         {
             id:"1",

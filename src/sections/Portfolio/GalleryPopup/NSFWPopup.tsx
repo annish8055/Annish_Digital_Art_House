@@ -26,6 +26,7 @@ interface NSFWPopupprops {
 }
 
 const NSFWPopup: React.FC<NSFWPopupprops> = ({val, open, onClose }) => {
+  console.log(val);
   const images = [
     {
         id:"1",
