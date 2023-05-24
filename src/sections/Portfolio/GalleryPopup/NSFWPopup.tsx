@@ -18,6 +18,10 @@ import nsimage15 from "../../../assets/nsfw/Final2.png";
 import nsimage16 from "../../../assets/nsfw/final.png";
 import nsimage17 from "../../../assets/nsfw/sourceFile2.png";
 import nsimage18 from "../../../assets/nsfw/sourceFile3.png";
+import nsimage19 from "../../../assets/nsfw/final1 - Copy.png";
+import nsimage20 from "../../../assets/nsfw/starCardSoft.png";
+import nsimage21 from "../../../assets/nsfw/sunCard.png";
+import nsimage22 from "../../../assets/nsfw/womaninWaterCardNude.png";
 
 interface NSFWPopupprops {
   val : string;
@@ -95,6 +99,22 @@ const NSFWPopup: React.FC<NSFWPopupprops> = ({val, open, onClose }) => {
 {
   id:"18",
   image:nsimage18
+},
+{
+  id:"19",
+  image:nsimage19
+},
+{
+  id:"20",
+  image:nsimage20
+},
+{
+  id:"21",
+  image:nsimage21
+},
+{
+  id:"22",
+  image:nsimage22
 }
 
 ]

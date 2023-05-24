@@ -5,8 +5,8 @@ import nsimage1 from "../../../assets/Custom/CARDView2 - Copy.png";
 import nsimage2 from "../../../assets/Custom/ElephantHybridColor1.png";
 import nsimage3 from "../../../assets/Custom/FinalAlurita4.png";
 import nsimage4 from "../../../assets/Custom/FinalArt1.png";
-import nsimage5 from "../../../assets/Custom/GroguFinal.png";
-import nsimage7 from "../../../assets/Custom/Model1.png";
+import nsimage25 from "../../../assets/Custom/GroguFinal.png";
+import nsimage27 from "../../../assets/Custom/Model1.png";
 import nsimage8 from "../../../assets/Custom/Model4.png";
 import nsimage9 from "../../../assets/Custom/PanelSample.png";
 import nsimage10 from "../../../assets/Custom/Pose1Finalupdated4.png";
@@ -24,7 +24,12 @@ import nsimage21 from "../../../assets/Custom/logoViewUpdated2.png";
 import nsimage22 from "../../../assets/Custom/poroniec.png";
 import nsimage23 from "../../../assets/Custom/qallupiluit.png";
 import nsimage24 from "../../../assets/Custom/sadhu1.png";
-import nsimage25 from "../../../assets/Custom/siren.png";
+import nsimage5 from "../../../assets/Custom/siren.png";
+import nsimage7 from "../../../assets/Custom/elf - Copy.png";
+import nsimage28 from "../../../assets/Custom/lady.png";
+import nsimage29 from "../../../assets/Custom/santaPng1.png";
+import nsimage30 from "../../../assets/Custom/towerCardView.png";
+import nsimage31 from "../../../assets/Custom/FinalUpdated.png";
 
 interface CustomPopupprops {
   val : string;
@@ -130,6 +135,26 @@ const CustomPopup: React.FC<CustomPopupprops> = ({val, open, onClose }) => {
 {
   id:"25",
   image:nsimage25
+},
+{
+  id:"27",
+  image:nsimage27
+},
+{
+  id:"28",
+  image:nsimage28
+},
+{
+  id:"29",
+  image:nsimage29
+},
+{
+  id:"30",
+  image:nsimage30
+},
+{
+  id:"31",
+  image:nsimage31
 }
 
 ]

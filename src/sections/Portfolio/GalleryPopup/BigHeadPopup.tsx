@@ -13,6 +13,7 @@ import bimage9 from "../../../assets/bighead/biden.png";
 import bimage10 from "../../../assets/bighead/cover2.png";
 import bimage11 from "../../../assets/bighead/klarenzFinal2.png";
 import bimage12 from "../../../assets/bighead/mg1.png";
+import bimage13 from "../../../assets/bighead/Podcasts.png";
 
 interface BigHeadPopupprops {
   val : string;
@@ -70,6 +71,10 @@ const BigHeadPopup: React.FC<BigHeadPopupprops> = ({val, open, onClose }) => {
 {
   id:"12",
   image:bimage12
+},
+{
+  id:"13",
+  image:bimage13
 }
     ]
   
