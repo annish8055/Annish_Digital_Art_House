@@ -179,8 +179,8 @@ const CustomPopup: React.FC<CustomPopupprops> = ({val, open, onClose }) => {
         {images.map((review) => (
           <Box key={review.id} p={2} textAlign="center">
             <Paper elevation={3} sx={{ p: 2 }}>
-              <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center">
-              <img src={review.image} alt="avatar" style={{ maxWidth: '100%', height: '75Vh' }} />
+              <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" sx={{maxWidth: '100%', height: '75Vh' }}>
+              <img src={review.image} alt="avatar" style={{ maxWidth: '100%', maxHeight: '100%' }} />
               </Box>
             </Paper>
           </Box>
