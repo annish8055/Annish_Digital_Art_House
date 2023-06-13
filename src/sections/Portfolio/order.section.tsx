@@ -13,7 +13,7 @@ import SkypeIcon from '../../assets/icons8-skype-500.svg';
 import DiscordIcon from '../../assets/icons8-discord-500.svg';
 import Fiverr from '../../assets/icons8-fiverr-480.svg';
 import Upwork from '../../assets/icons8-upwork-500.svg';
-
+import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
 
 
 
@@ -61,22 +61,28 @@ export const OrderSection: React.FC = () => {
           Payment process consists of the following steps:
         </Typography>
         <List>
-          <ListItem><Box sx={{ flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'left', p: 1.6, bgcolor: '	#282828',opacity: 1, borderRadius: 8, mx: -1.5, mb: -1.5}}>
+        <ListItem><Box sx={{ flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'left', p: 1, bgcolor: '	#282828',opacity: 1, borderRadius: 8, mx: -1.5, mb: -1.5}}>
         <PaymentIcon color="primary" />
         <Typography variant="body1">
         <strong>Step 1: Initial Payment</strong><br /> 30% advance payment required to initiate project.
         </Typography>
       </Box></ListItem>
-          <ListItem><Box sx={{ flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'left', p: 1.6, bgcolor: '	#282828', borderRadius: 8, mx: -1.5, mb: -1.5}}>
+          <ListItem><Box sx={{ flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'left', p: 1, bgcolor: '	#282828', borderRadius: 8, mx: -1.5, mb: -1.5}}>
         <PaymentsIcon color="primary" />
         <Typography variant="body1">
         <strong>Step 2: Milestone Payment</strong><br /> 20% payment requested upon line-art delivery.
         </Typography>
       </Box></ListItem>
-          <ListItem><Box sx={{ flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'left', p: 1.6, bgcolor: '	#282828', borderRadius: 8, mx: -1.5, mb: -1.5}}>
+          <ListItem><Box sx={{ flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'left', p: 1, bgcolor: '	#282828', borderRadius: 8, mx: -1.5, mb: -1.5}}>
         <PaidIcon color="primary" />
         <Typography variant="body1">
         <strong>Step 3: Final Payment and Approval</strong><br /> Final version shared upon full payment.
+        </Typography>
+      </Box></ListItem>
+      <ListItem><Box sx={{ flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'left', p: 1, bgcolor: '	#2E525C',opacity: 1, borderRadius: 8, mx: -1.5, mb: -1.5}}>
+        <CurrencyExchangeIcon color="primary" />
+        <Typography variant="body1">
+        Standard prices: $5 portrait, $10 halfbody, $15 fullbody 
         </Typography>
       </Box></ListItem>
         </List>
