@@ -84,7 +84,7 @@ export const OrderSection: React.FC = () => {
         <CurrencyExchangeIcon color="primary" />
         <Typography variant="body1">
         Standard prices: $5 portrait, $10 halfbody, $15 fullbody <br />
-        ʕ•́ᴥ•̀ʔっ -- $5/10 backgrounds
+        $5/10 backgrounds
         </Typography>
       </Box>
       </ListItem>
