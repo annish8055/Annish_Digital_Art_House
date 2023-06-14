@@ -14,6 +14,7 @@ import DiscordIcon from '../../assets/icons8-discord-500.svg';
 import Fiverr from '../../assets/icons8-fiverr-480.svg';
 import Upwork from '../../assets/icons8-upwork-500.svg';
 import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
+import VrpanoIcon from '@mui/icons-material/Vrpano';
 
 
 
@@ -79,12 +80,14 @@ export const OrderSection: React.FC = () => {
         <strong>Step 3: Final Payment and Approval</strong><br /> Final version shared upon full payment.
         </Typography>
       </Box></ListItem>
-      <ListItem><Box sx={{ flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'left', p: 1, bgcolor: '	#2E525C',opacity: 1, borderRadius: 8, mx: -1.5, mb: -1.5}}>
+      <ListItem><Box sx={{ flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'left', p: 1, bgcolor: '	#31474D',opacity: 1, borderRadius: 8, mx: -1.5, mb: -1.5}}>
         <CurrencyExchangeIcon color="primary" />
         <Typography variant="body1">
-        Standard prices: $5 portrait, $10 halfbody, $15 fullbody 
+        Standard prices: $5 portrait, $10 halfbody, $15 fullbody <br />
+        ʕ•́ᴥ•̀ʔっ -- $5/10 backgrounds
         </Typography>
-      </Box></ListItem>
+      </Box>
+      </ListItem>
         </List>
       </Grid>
     </Grid>
