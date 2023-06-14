@@ -14,7 +14,6 @@ import DiscordIcon from '../../assets/icons8-discord-500.svg';
 import Fiverr from '../../assets/icons8-fiverr-480.svg';
 import Upwork from '../../assets/icons8-upwork-500.svg';
 import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
-import VrpanoIcon from '@mui/icons-material/Vrpano';
 
 
 
