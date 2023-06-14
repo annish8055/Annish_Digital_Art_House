@@ -86,33 +86,30 @@ export const OrderSection: React.FC = () => {
         </List>
       </Grid>
     </Grid>
-<br />
-<Box sx={{ flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'left', p: 1, bgcolor: '	#31474D',opacity: 1, borderRadius: 2, mx: -1.5, mb: -1.5}}>
-
+<Box color="white" sx={{ alignItems: 'center', p: 0.5, backgroundColor: 'rgba(0.4,0.4,0.4,0.6)' , borderRadius: 2, mx: -1.5, mb: -1.5}}>
+<p style={{textAlign:'center'}}>
         
-        <Typography variant="h5" align="center">
         <CurrencyExchangeIcon color="primary"/><strong>Standard prices: </strong> 
+<br />
+ 
 
-        <Stack direction="row" spacing={6}>
-       <AccountCircleIcon color="warning" />
-        <Typography variant="body1">
-        <b>$5</b> : Portrait
-        </Typography>
+           <AccountCircleIcon color="warning" />
+ 
+        <b>$5</b> : Portrait, 
+ 
         <BoyIcon color="warning" />
-        <Typography variant="body1">
-        <b>$10 </b>: Halfbody
-        </Typography>
-        <EmojiPeopleIcon color="warning" />
-        <Typography variant="body1">
-        <b>$15</b> : Fullbody
-        </Typography>
-        <VrpanoIcon color="warning" />
-        <Typography variant="body1">
-        <b>$5-$10</b>  : Backgrounds
-        </Typography>
-        </Stack>
+   
+        <b>$10 </b>: Halfbody,
 
-        </Typography>
+        <EmojiPeopleIcon color="warning" />
+
+        <b>$15</b> : Fullbody,
+
+        <VrpanoIcon color="warning" />
+
+        <b>$5-$10</b>  : Backgrounds
+
+        </p>
       </Box>
 <br />
 <Box color="white" sx={{ alignItems: 'center', p: 0, backgroundColor: 'rgba(0,0,0,0.4)' , borderRadius: 8, mx: -1.5, mb: -1.5}}>
