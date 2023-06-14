@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography, List, ListItem, Grid,Link } from '@material-ui/core';
-import { Box,Stack } from '@mui/material';
+import { Box } from '@mui/material';
 import WorkIcon from '@material-ui/icons/Work';
 import EditIcon from '@material-ui/icons/Edit';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
