@@ -82,8 +82,7 @@ export const OrderSection: React.FC = () => {
       <ListItem><Box sx={{ flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'left', p: 1, bgcolor: '	#31474D',opacity: 1, borderRadius: 8, mx: -1.5, mb: -1.5}}>
         <CurrencyExchangeIcon color="primary" />
         <Typography variant="body1">
-        Standard prices: $5 portrait, $10 halfbody, $15 fullbody <br />
-        $5/10 backgrounds
+        <strong>Standard prices: </strong>$5 portrait, $10 halfbody, $15 fullbody, $5/10 backgrounds
         </Typography>
       </Box>
       </ListItem>
