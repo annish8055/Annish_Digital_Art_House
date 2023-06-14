@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography, List, ListItem, Grid,Link } from '@material-ui/core';
-import { Box } from '@mui/material';
+import { Box,Stack } from '@mui/material';
 import WorkIcon from '@material-ui/icons/Work';
 import EditIcon from '@material-ui/icons/Edit';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
@@ -14,11 +14,13 @@ import DiscordIcon from '../../assets/icons8-discord-500.svg';
 import Fiverr from '../../assets/icons8-fiverr-480.svg';
 import Upwork from '../../assets/icons8-upwork-500.svg';
 import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
-
-
+import VrpanoIcon from '@mui/icons-material/Vrpano';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import BoyIcon from '@mui/icons-material/Boy';
+import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
 
 export const OrderSection: React.FC = () => {
-  
+
   return (
     <Box display="flex" justifyContent="center" alignItems="center" height="95vh" sx={{color:'white'}}>
     <div>
@@ -61,35 +63,57 @@ export const OrderSection: React.FC = () => {
           Payment process consists of the following steps:
         </Typography>
         <List>
-        <ListItem><Box sx={{ flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'left', p: 1, bgcolor: '	#282828',opacity: 1, borderRadius: 8, mx: -1.5, mb: -1.5}}>
+        <ListItem><Box sx={{ flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'left', p: 1.8, bgcolor: '	#282828',opacity: 1, borderRadius: 8, mx: -1.5, mb: -1.5}}>
         <PaymentIcon color="primary" />
         <Typography variant="body1">
         <strong>Step 1: Initial Payment</strong><br /> 30% advance payment required to initiate project.
         </Typography>
       </Box></ListItem>
-          <ListItem><Box sx={{ flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'left', p: 1, bgcolor: '	#282828', borderRadius: 8, mx: -1.5, mb: -1.5}}>
+          <ListItem><Box sx={{ flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'left', p: 1.8, bgcolor: '	#282828', borderRadius: 8, mx: -1.5, mb: -1.5}}>
         <PaymentsIcon color="primary" />
         <Typography variant="body1">
         <strong>Step 2: Milestone Payment</strong><br /> 20% payment requested upon line-art delivery.
         </Typography>
       </Box></ListItem>
-          <ListItem><Box sx={{ flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'left', p: 1, bgcolor: '	#282828', borderRadius: 8, mx: -1.5, mb: -1.5}}>
+          <ListItem><Box sx={{ flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'left', p: 1.8, bgcolor: '	#282828', borderRadius: 8, mx: -1.5, mb: -1.5}}>
         <PaidIcon color="primary" />
         <Typography variant="body1">
         <strong>Step 3: Final Payment and Approval</strong><br /> Final version shared upon full payment.
         </Typography>
       </Box></ListItem>
-      <ListItem><Box sx={{ flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'left', p: 1, bgcolor: '	#31474D',opacity: 1, borderRadius: 8, mx: -1.5, mb: -1.5}}>
-        <CurrencyExchangeIcon color="primary" />
-        <Typography variant="body1">
-        <strong>Standard prices: </strong>$5 portrait, $10 halfbody, $15 fullbody, $5/10 backgrounds
-        </Typography>
-      </Box>
+      <ListItem>
       </ListItem>
         </List>
       </Grid>
     </Grid>
 <br />
+<Box sx={{ flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'left', p: 1, bgcolor: '	#31474D',opacity: 1, borderRadius: 2, mx: -1.5, mb: -1.5}}>
+
+        
+        <Typography variant="h5" align="center">
+        <CurrencyExchangeIcon color="primary"/><strong>Standard prices: </strong> 
+
+        <Stack direction="row" spacing={6}>
+       <AccountCircleIcon color="warning" />
+        <Typography variant="body1">
+        <b>$5</b> : Portrait
+        </Typography>
+        <BoyIcon color="warning" />
+        <Typography variant="body1">
+        <b>$10 </b>: Halfbody
+        </Typography>
+        <EmojiPeopleIcon color="warning" />
+        <Typography variant="body1">
+        <b>$15</b> : Fullbody
+        </Typography>
+        <VrpanoIcon color="warning" />
+        <Typography variant="body1">
+        <b>$5-$10</b>  : Backgrounds
+        </Typography>
+        </Stack>
+
+        </Typography>
+      </Box>
 <br />
 <Box color="white" sx={{ alignItems: 'center', p: 0, backgroundColor: 'rgba(0,0,0,0.4)' , borderRadius: 8, mx: -1.5, mb: -1.5}}>
       <Typography variant="h4" align="center" gutterBottom ><b>Let's Connect</b></Typography></Box>
