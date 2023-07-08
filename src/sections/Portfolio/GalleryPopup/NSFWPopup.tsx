@@ -1,10 +1,10 @@
 import { Dialog, DialogTitle, DialogContent, IconButton,Box, Paper} from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
 import Carousel from 'react-material-ui-carousel';
-import nsimage1 from "../../../assets/nsfw/1.png";
+import nsimage1 from "../../../assets/nsfw/new1.png";
 import nsimage2 from "../../../assets/nsfw/10.png";
 import nsimage3 from "../../../assets/nsfw/12.png";
-import nsimage4 from "../../../assets/nsfw/13.png";
+import nsimage4 from "../../../assets/nsfw/1.png";
 import nsimage5 from "../../../assets/nsfw/1transparent.png";
 import nsimage7 from "../../../assets/nsfw/2transparent.png";
 import nsimage8 from "../../../assets/nsfw/3.png";
@@ -22,6 +22,8 @@ import nsimage19 from "../../../assets/nsfw/final1 - Copy.png";
 import nsimage20 from "../../../assets/nsfw/starCardSoft.png";
 import nsimage21 from "../../../assets/nsfw/sunCard.png";
 import nsimage22 from "../../../assets/nsfw/womaninWaterCardNude.png";
+import nsimage23 from "../../../assets/nsfw/new2.png";
+import nsimage24 from "../../../assets/nsfw/13.png";
 
 interface NSFWPopupprops {
   val : string;
@@ -115,6 +117,14 @@ const NSFWPopup: React.FC<NSFWPopupprops> = ({val, open, onClose }) => {
 {
   id:"22",
   image:nsimage22
+},
+{
+  id:"23",
+  image:nsimage23
+},
+{
+  id:"24",
+  image:nsimage24
 }
 
 ]
